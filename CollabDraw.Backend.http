@@ -1,0 +1,6 @@
+@CollabDraw.Backend_HostAddress = http://localhost:5227
+
+GET {{CollabDraw.Backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
