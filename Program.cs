@@ -11,7 +11,7 @@ builder.Services.AddSignalR(options =>
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AngularDev", policy =>
-        policy.WithOrigins("http://localhost:4200", "http://localhost:53001")
+        policy.WithOrigins("http://localhost:4200", "http://localhost:53001", "https://collab-draw-frontend-lake.vercel.app")
               .AllowAnyHeader()
               .AllowAnyMethod()
               .AllowCredentials());
